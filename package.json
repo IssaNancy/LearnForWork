@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
-    "cz-customizable": "^6.3.0"
+    "cz-customizable": "^6.9.2"
   },
   "config": {
     "commitizen": {
