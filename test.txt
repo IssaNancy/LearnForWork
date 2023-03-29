@@ -1,5 +1,0 @@
-this is a test file!
-this is a test file!
-Creating a new branch is quick.
-git commit to git cz
-git cz do not work
