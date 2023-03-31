@@ -1,0 +1,123 @@
+cd /home/msgroup/Documents/Nancy
+
+https://www.actiongenome.org/#download
+
+1、创建虚拟环境
+conda create -n python36 python=3.6
+2、激活虚拟环境
+conda activate envpython36/conda deactivate
+source activate envname  #envname是刚才的环境名字
+3、安装pytorch
+conda install pytorch torchvision -c pytorch
+
+pip install torchvision -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install torchvision -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+-----------------------------------------------------------------------------------------------
+谷歌colab使用教程
+https://blog.csdn.net/lumingha/article/details/104825702
+-----------------------------------------------------------------------------------------------
+y
+pycharm 使用conda 的虚拟环境作为编译解释器选择路径
+
+C:\Users\pc\file\Programs\Anaconda3\envs\python36\python.exe
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+windows系统下安装GUN的GCC编译器：
+
+1、下载 min-gw 安装程序，http://sourceforge.net/projects/mingw/files/
+
+2、注意安装路径，C:\MinGw
+
+3、修改环境变量path,以确保操作系统能够搜索到硬盘上的命令。设置-系统-关于-高级系统设置-环境变量，在path中添加路径：C:\MinGw\bin
+
+4、打开命令行 win+R，输入cmd。在cmd中输入mingw-get install gcc，就可以安装gcc了。mingw-get install g++可以安装g++来编译c++，mingw-get install gdb可以安装gdb用来调试。
+
+使用：
+
+1、编写一个输出hello,world!的程序 hello.c
+
+2、编译过程。cmd中输入:gcc hello.c的路径
+
+3、生成.exe文件。在hello.c的路径里生成一个a.exe文件，打开后显示hello,world!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+在windows的cmd中运行C文件步骤：（以hello.c为例）
+一、推荐写法
+gcc -c hello.c
+gcc -o hello.o
+.\hello
+二、
+gcc hello.c
+.\a.exe
+
+---------------------------------------------------------------------------------------------------------------------
+读文献五大要求：
+1、创新点是什么
+2、Motivation
+3、模型、具体方法是什么
+4、怎么做实验
+5、心得体会
+
+--------------------------------------------------------------------------------------------------------------------
+[1].如何安装相应模块：  https://blog.csdn.net/qq_43201403/article/details/102336114
+
+[2].关于numpy模块使用的相关文档：   https://www.cnblogs.com/pythonfl/p/12257698.html
+
+[3].networkx模块使用的相关文档： 1.https://blog.csdn.net/your_answer/article/details/79189660 2.https://zhuanlan.zhihu.com/p/40852672
+
+[4].利用netwokx绘图:    https://blog.csdn.net/qq_32284189/article/details/80134768?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control
+
+[5].Python中 all() 与 any() 的区别：https://blog.csdn.net/cython22/article/details/78829288?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5.control
+
+------------------------------------------------------------------------------------------------------------------
+pyx文件的导入与编译：
+https://www.jianshu.com/p/3350180e9009
+
+VMware Workstation 许可证：
+https://www.win7zhijia.cn/win10jc/win10_48440.html 
+安装ubuntu教程：
+https://blog.csdn.net/m0_58085107/article/details/123856822
+
+# 调出字符界面
+ctrl + alt + T
+
+
+# 删除已有的连接
+net use * /delete
+net use \\192.168.121.128 123456 /user:yimu
+
+####################################
+ubuntu conda not found:
+https://www.cnblogs.com/chaoqi/p/15513824.html
+
+####################################
+ubuntu 磁盘不足扩容：
+https://blog.csdn.net/Xin_101/article/details/125929428
+#################################################
+
+如何在两台服务器之间传输文件？
+
+scp -r /home/myfile username@192.000.000.000:/home/myfile
+其中scp为命令，-r代表移动文件，/home/myfile代表源文件夹所在的绝对路径，username@192.000.000.000:/home/myfile代表目标服务器中目标用户名的目标文件夹。
+
+
+############################################
+finalshell终端使用帮助
+
+相关快捷键
+
+终端:
+alt 命令历史
+双击ctrl 切换到命令输入框
+
+命令输入框:
+alt 命令历史
+tab 补全 
+双击ctrl 切换到终端
+
+列表窗口:
+backspace 上一级目录
+alt/tab/esc 关闭窗口
+上下箭头 选择行
+
